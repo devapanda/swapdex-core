@@ -1,9 +1,9 @@
 pragma solidity =0.5.16;
 
-import './interfaces/ISwapdexV2ERC20.sol';
+import './interfaces/ISwapdexERC20.sol';
 import './libraries/SafeMath.sol';
 
-contract SwapdexV2ERC20 is ISwapdexV2ERC20 {
+contract SwapdexERC20 is ISwapdexERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Swapdex V2';
