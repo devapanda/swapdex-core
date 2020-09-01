@@ -5,8 +5,8 @@ import './SwapdexERC20.sol';
 import './libraries/Math.sol';
 import './libraries/UQ112x112.sol';
 import './interfaces/IERC20.sol';
-import './interfaces/ISwapdexV2Factory.sol';
-import './interfaces/ISwapdexV2Callee.sol';
+import './interfaces/ISwapdexFactory.sol';
+import './interfaces/ISwapdexCallee.sol';
 
 contract SwapdexPair is ISwapdexPair, SwapdexERC20 {
     using SafeMath  for uint;
