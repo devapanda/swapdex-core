@@ -1,18 +1,18 @@
 {
-  "name": "@swapdex/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
+  "name": "swapdex-core",
+  "description": "🎛 Core contracts for the swapdex protocol",
   "version": "1.0.1",
   "homepage": "https://swapdex.net",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devapanda/swapdex-v2-core"
+    "url": "https://github.com/devapanda/swapdex-core"
   },
   "keywords": [
-    "uniswap",
+    "swapdex",
     "ethereum",
     "v2",
     "core",
-    "swapdex-v2"
+    "swapdex-core"
   ],
   "files": [
     "contracts",
