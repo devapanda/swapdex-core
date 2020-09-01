@@ -15,7 +15,7 @@ const overrides = {
   gasLimit: 9999999
 }
 
-describe('SwapdexV2Pair', () => {
+describe('SwapdexPair', () => {
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
