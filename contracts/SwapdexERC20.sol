@@ -88,7 +88,7 @@ contract SwapdexERC20 is ISwapdexERC20 {
             )
         );
         address recoveredAddress = ecrecover(digest, v, r, s);
-        require(recoveredAddress != address(0) && recoveredAddress == owner, 'SwapdexV2: INVALID_SIGNATURE');
+        require(recoveredAddress != address(0) && recoveredAddress == owner, 'Swapdex: INVALID_SIGNATURE');
         _approve(owner, spender, value);
     }
 }
