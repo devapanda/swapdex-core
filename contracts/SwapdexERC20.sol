@@ -6,8 +6,8 @@ import './libraries/SafeMath.sol';
 contract SwapdexERC20 is ISwapdexERC20 {
     using SafeMath for uint;
 
-    string public constant name = 'Swapdex V2';
-    string public constant symbol = 'UNI-V2';
+    string public constant name = 'Swapdex';
+    string public constant symbol = 'SWP';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;
