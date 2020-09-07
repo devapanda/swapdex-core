@@ -24,7 +24,7 @@
           "type": "bytes"
         }
       ],
-      "name": "SwapdexCall",
+      "name": "SwapdexV2Call",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -45,7 +45,7 @@
       "sourceMap": ""
     }
   },
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"SwapdexCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/interfaces/ISwapdexCallee.sol\":\"ISwapdexCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/interfaces/ISwapdexCallee.sol\":{\"keccak256\":\"0x538ccaa59ab217902aece3ba4dd9f4cf1bde25b3b014ad9974b3e1ec6e7fea7e\",\"urls\":[\"bzz-raw://35152685d533d4704584d82420cd9efb0cbf1978789463d72d7e5ca15577f22b\",\"dweb:/ipfs/QmNZfEYyYroY91qzaqffQsFuePRJHnUkEVuHf38oMqeTML\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"SwapdexV2Call\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/interfaces/ISwapdexV2Callee.sol\":\"ISwapdexV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/interfaces/ISwapdexV2Callee.sol\":{\"keccak256\":\"0xed661826dd9cb23fd8dcefd7a615fc4827674707558c96621a5c093b1da7eaa7\",\"urls\":[\"bzz-raw://c90ebc7073578d5f8cc7e021f28186791b46ef0380271daa9407facee329df63\",\"dweb:/ipfs/QmQiCbNib1wUh3s5vmVTUtbWTi3c2T1Jz7w7tzDnZ5CWJx\"]}},\"version\":1}",
   "interface": [
     {
       "constant": false,
@@ -71,7 +71,7 @@
           "type": "bytes"
         }
       ],
-      "name": "SwapdexCall",
+      "name": "SwapdexV2Call",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
